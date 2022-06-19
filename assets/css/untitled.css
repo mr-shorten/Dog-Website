@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-gray-900);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  background-color: var(--bs-gray-600);
+}
+
